@@ -59,7 +59,7 @@ public class Sim
     public void Tick()
     {
         Stromquelle.Update(TotalTime, DeltaTime);
-        /*
+        
         int spannung0 = (int)(Stromquelle.Outputs[0].Spannung / 10.0);
         int spannung1 = (int)(Stromquelle.Outputs[1].Spannung / 10.0);
         int spannung2 = (int)(Stromquelle.Outputs[2].Spannung / 10.0);
@@ -89,9 +89,7 @@ public class Sim
         }
 
         Console.ResetColor(); // Setzt die Farbe zurück
-
         Console.WriteLine("");
-        */
     }
 
     public void Stop()
